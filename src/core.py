@@ -34,3 +34,8 @@ class AIAnalyst:
         for name, m in self.models.items():
             results[name] = m.chat(prompt)
         return results
+
+def Load_System_Prompt(file_path: str) -> str:
+    """从文件中读取系统提示词"""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read().strip()

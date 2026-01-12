@@ -9,6 +9,7 @@ CONFIG = {
     "qwen": {
         "api_key": qwen_api_key,
         "model_name": "qwen-max",
+        #"model_name": "qwen3-max-thinking-preview",
     },
     "deepseek": {
         "api_key": "DEEPSEEK_API_KEY",
